@@ -22,16 +22,18 @@ O projeto está organizado da seguinte forma:
 ```
 .
 ├── 📁 dados/
-│   ├── lexicon.csv             # Léxico de palavras de referência
-│   └── messages.csv            # Conjunto de dados brutos com as mensagens
+│   ├── mol.csv                                                                # Léxico de palavras de referência
+│   └── 2019-05-28_portuguese_hate_speech_binary_classification.csv            # Conjunto de dados brutos com as mensagens
 │
-├── 📄 Relatorio_Trabalho.pdf    # Relatório final do trabalho em formato PDF
+├──📁 relatorio/
+│   ├── latex/           # Arquivos-fonte em LaTeX
+│   └── Relatorio.pdf    # Relatório final do trabalho em formato PDF
 │
-└── 📓 Analise_Redes_Complexas.ipynb # Notebook Jupyter/Colab com todo o código e análise
+└── 📓 Analise.ipynb     # Notebook Jupyter/Colab com todo o código e análise
 ```
 
 * **`/dados/`**: Contém os arquivos `.csv` utilizados como fonte de dados para a análise.
-* **`Relatorio_Trabalho.pdf`**: O documento final com a descrição detalhada do trabalho, as análises realizadas e a discussão dos resultados, conforme solicitado nas diretrizes.
+* **`/relatorio/Relatorio.pdf`**: O documento final com a descrição detalhada do trabalho, as análises realizadas e a discussão dos resultados, conforme solicitado nas diretrizes.
 * **`Analise_Redes_Complexas.ipynb`**: O notebook auto-contido que centraliza todo o fluxo de trabalho, desde a leitura e pré-processamento dos dados até a construção, análise e visualização do grafo de palavras.
 
 ---
